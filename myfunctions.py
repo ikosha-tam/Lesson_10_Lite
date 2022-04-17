@@ -12,9 +12,8 @@ def simple_separator():
     Функция создает красивый резделитель из 10-и звездочек (**********)
     :return: **********
     """
-    pass
-
-
+    sep = '**********'
+    return sep
 print(simple_separator() == '**********')  # True
 
 
