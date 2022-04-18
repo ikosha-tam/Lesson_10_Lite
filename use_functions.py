@@ -52,7 +52,7 @@ while True:
     print('2. покупка')
     print('3. история покупок')
     print('4. выход')
-    print(f'Ваш счет:{budget}')
+    print(f'Ваш счет: {budget}')
     choice = input('Выберите пункт меню: ')
     if choice == '1':
         sum = int(input('Введите сумму для пополнения: '))
